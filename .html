@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>3D Cube</title>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    </head>
+    <body>
+        <div class="container">
+    <div class="Cube">
+        <div class="s1">
+            <div class="s1-1"></div>
+            <div class="s1-2"></div>
+            <div class="s1-3"></div>
+            <div class="s1-4"></div>
+            <div class="s1-5"></div>
+            <div class="s1-6"></div>
+            <div class="s1-7"></div>
+            <div class="s1-8"></div>
+        </div>
+        <div class="s2">
+            <div class="s2-1"></div>
+            <div class="s2-2"></div>
+            <div class="s2-3"></div>
+            <div class="s2-4"></div>
+            <div class="s2-5"></div>
+            <div class="s2-6"></div>
+            <div class="s2-7"></div>
+            <div class="s2-8"></div>
+        </div>
+        <div class="s3">
+            <div class="s3-1"></div>
+            <div class="s3-2"></div>
+            <div class="s3-3"></div>
+            <div class="s3-4"></div>
+            <div class="s3-5"></div>
+            <div class="s3-6"></div>
+            <div class="s3-7"></div>
+            <div class="s3-8"></div>
+        </div>
+        <div class="s4">
+            <div class="s4-1"></div>
+            <div class="s4-2"></div>
+            <div class="s4-3"></div>
+            <div class="s4-4"></div>
+            <div class="s4-5"></div>
+            <div class="s4-6"></div>
+            <div class="s4-7"></div>
+            <div class="s4-8"></div>
+        </div>
+        <div class="s5">
+            <div class="s5-1"></div>
+            <div class="s5-2"></div>
+            <div class="s5-3"></div>
+            <div class="s5-4"></div>
+            <div class="s5-5"></div>
+            <div class="s5-6"></div>
+            <div class="s5-7"></div>
+            <div class="s5-8"></div>
+        </div>
+        <div class="s6">
+            <div class="s6-1"></div>
+            <div class="s6-2"></div>
+            <div class="s6-3"></div>
+            <div class="s6-4"></div>
+            <div class="s6-5"></div>
+            <div class="s6-6"></div>
+            <div class="s6-7"></div>
+            <div class="s6-8"></div>
+        </div>
+    </div>
+</div>
+<p style="text-align: center; color:white;">
+    <button class="b1" onclick="turnLeft()">Left</button>
+    <button class="b2" onclick="turnRight()">Up</button></br>
+    <button class="b3" onclick="flipCube()">Flip</button>
+</p>
+    </body>
+    <style>
+        body{
+    background-color:black;
+}
+.container {
+    width: 250px;
+    height: 213px;
+    background-color: #000;
+    position:absolute;
+    top:20%;
+    left:20%;
+}
+.Cube {
+    width: 112px;
+    height: 112px;
+    top: 50px;
+    transform-style: preserve-3d;
+    transform: rotateX(-22deg) rotateY(-38deg) rotateZ(0deg);
+    margin: auto;
+    position: relative;
+    transform-style: preserve-3d;
+    transition: all 0.5s ease-in-out;
+}
+.Cube > div {
+    position: absolute;
+    transition: all 0.5s ease-in-out;
+    width: 112px;
+    height: 112px;
+    float: left;
+    overflow: hidden;
+    opacity: 0.85;
+}
+.s1 {
+    transform: rotatex(90deg) translateX(0px) translateY(0px) translateZ(56px);
+    background-color: #FFF;
+}
+.s2 {
+    transform: rotateY(-90deg) translateX(0px) translateY(0px) translateZ(56px);
+    background-color: #ffaf1c;
+}
+.s3 {
+    transform: translateX(0px) translateY(0px) translateZ(56px);
+    background-color: #58d568;
+}
+.s4 {
+    transform: rotateY(90deg) translateX(0px) translateY(0px) translateZ(56px);
+    background-color: #ed3030;
+}
+.s5 {
+    transform: rotateY(180deg) translateX(0px) translateY(0px) translateZ(56px);
+    background-color: #1c5ffe;
+}
+.s6 {
+    transform: rotateX(-90deg) translateX(0px) translateY(0px) translateZ(56px);
+    background-color: #f2f215;
+}
+p{
+    position:absolute;
+    top:50%;
+    left:50%;
+    background-color: red;
+    height:110px;
+    width:110px;
+    border-radius:50%;
+}
+.b1{
+    position:relative;
+    top:30%;
+}
+.b2{
+    position:relative;
+    top:30%;
+}
+.b3{
+    position:relative;
+    top:35%;
+}
+    </style>
+    <script>
+    alert("THANKS FOR VISITING")
+    alert("Click the buttons to rotate the cube")
+     var cubex = -29,
+cubey = -38,
+cubez = 0;
+function rotate(variableName, degrees) {
+    window[variableName] = window[variableName] + degrees;
+    rotCube(cubex, cubey, cubez);
+}
+function rotCube(degx, degy, degz){
+    segs = "rotateX("+degx+"deg) rotateY("+degy+"deg) rotateZ("+degz+"deg) translateX(0) translateY(0) translateZ(0)";
+    $('.Cube').css({"transform":segs});
+}
+function turnRight() {
+    rotate("cubex", 90);
+}
+function turnLeft() {
+    rotate("cubey", -90);
+}
+function flipCube() {
+    rotate("cubez", 180);
+}   
+    </script>
+</html>
