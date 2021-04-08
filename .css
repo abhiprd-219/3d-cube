@@ -1,0 +1,379 @@
+/* here's the code for peices of cube */
+.s1-1{
+    height:37.3px;
+    width:37.3px;
+    border-right:2px solid black;
+    border-bottom:2px solid black;
+}
+.s1-2{
+    height:37.3px;
+    width:37.3px;
+    border-right:2px solid black;
+    border-bottom:2px solid black;
+}
+.s1-3{
+    height:37.3px;
+    width:37.3px;
+    border-right:2px solid black;
+    border-bottom:2px solid black;
+}
+.s1-4{
+    height:37.3px;
+    width:37.3px;
+    position:absolute ;
+    top:0px;
+    left:37.3px;
+    border-right:2px solid black;
+    border-bottom:2px solid black;
+}
+.s1-5{
+    height:37.3px;
+    width:37.3px;
+    position:absolute ;
+    top:37.3px;
+    left:37.3px;
+    border-right:2px solid black;
+    border-bottom:2px solid black;
+}
+.s1-6{
+    height:37.3px;
+    width:37.3px;
+    position:absolute ;
+    top:74.6px;
+    left:37.3px;
+    border-right:2px solid black;
+    border-bottom:2px solid black;
+}
+.s1-7{
+    height:37.3px;
+    width:37.3px;
+    position:absolute ;
+    top:0px;
+    left:74.6px;
+    border-right:2px solid black;
+    border-bottom:2px solid black;
+}
+.s1-8{
+    height:37.3px;
+    width:37.3px;
+    position:absolute ;
+    top:37.3px;
+    left:76.6px;
+    border-right:2px solid black;
+    border-bottom:2px solid black;
+}
+.s2-1{
+    height:37.3px;
+    width:37.3px;
+    border-right:2px solid black;
+    border-bottom:2px solid black;
+}
+.s2-2{
+    height:37.3px;
+    width:37.3px;
+    border-right:2px solid black;
+    border-bottom:2px solid black;
+}
+.s2-3{
+    height:37.3px;
+    width:37.3px;
+    border-right:2px solid black;
+    border-bottom:2px solid black;
+}
+.s2-4{
+    height:37.3px;
+    width:37.3px;
+    position:absolute ;
+    top:0px;
+    left:37.3px;
+    border-right:2px solid black;
+    border-bottom:2px solid black;
+}
+.s2-5{
+    height:37.3px;
+    width:37.3px;
+    position:absolute ;
+    top:37.3px;
+    left:37.3px;
+    border-right:2px solid black;
+    border-bottom:2px solid black;
+}
+.s2-6{
+    height:37.3px;
+    width:37.3px;
+    position:absolute;
+    top:74.6px;
+    left:37.3px;
+    border-right:2px solid black;
+    border-bottom:2px solid black;
+}
+.s2-7{
+    height:37.3px;
+    width:37.3px;
+    position:absolute;
+    top:0px;
+    left:74.6px;
+    border-right:2px solid black;
+    border-bottom:2px solid black;
+}
+.s2-8{
+    height:37.3px;
+    width:37.3px;
+    position:absolute;
+    top:37.3px;
+    left:76.6px;
+    border-right:2px solid black;
+    border-bottom:2px solid black;
+}
+.s3-1{
+    height:37.3px;
+    width:37.3px;
+    border-right:2px solid black;
+    border-bottom:2px solid black;
+}
+.s3-2{
+    height:37.3px;
+    width:37.3px;
+    border-right:2px solid black;
+    border-bottom:2px solid black;
+}
+.s3-3{
+    height:37.3px;
+    width:37.3px;
+    border-right:2px solid black;
+    border-bottom:2px solid black;
+}
+.s3-4{
+    height:37.3px;
+    width:37.3px;
+    position:absolute ;
+    top:0px;
+    left:37.3px;
+    border-right:2px solid black;
+    border-bottom:2px solid black;
+}
+.s3-5{
+    height:37.3px;
+    width:37.3px;
+    position:absolute ;
+    top:37.3px;
+    left:37.3px;
+    border-right:2px solid black;
+    border-bottom:2px solid black;
+}
+.s3-6{
+    height:37.3px;
+    width:37.3px;
+    position:absolute ;
+    top:74.6px;
+    left:37.3px;
+    border-right:2px solid black;
+    border-bottom:2px solid black;
+}
+.s3-7{
+    height:37.3px;
+    width:37.3px;
+    position:absolute ;
+    top:0px;
+    left:74.6px;
+    border-right:2px solid black;
+    border-bottom:2px solid black;
+}
+.s3-8{
+    height:37.3px;
+    width:37.3px;
+    position:absolute ;
+    top:37.3px;
+    left:76.6px;
+    border-right:2px solid black;
+    border-bottom:2px solid black;
+}
+.s4-1{
+    height:37.3px;
+    width:37.3px;
+    border-right:2px solid black;
+    border-bottom:2px solid black;
+}
+.s4-2{
+    height:37.3px;
+    width:37.3px;
+    border-right:2px solid black;
+    border-bottom:2px solid black;
+}
+.s4-3{
+    height:37.3px;
+    width:37.3px;
+    border-right:2px solid black;
+    border-bottom:2px solid black;
+}
+.s4-4{
+    height:37.3px;
+    width:37.3px;
+    position:absolute ;
+    top:0px;
+    left:37.3px;
+    border-right:2px solid black;
+    border-bottom:2px solid black;
+}
+.s4-5{
+    height:37.3px;
+    width:37.3px;
+    position:absolute ;
+    top:37.3px;
+    left:37.3px;
+    border-right:2px solid black;
+    border-bottom:2px solid black;
+}
+.s4-6{
+    height:37.3px;
+    width:37.3px;
+    position:absolute ;
+    top:74.6px;
+    left:37.3px;
+    border-right:2px solid black;
+    border-bottom:2px solid black;
+}
+.s4-7{
+    height:37.3px;
+    width:37.3px;
+    position:absolute ;
+    top:0px;
+    left:74.6px;
+    border-right:2px solid black;
+    border-bottom:2px solid black;
+}
+.s4-8{
+    height:37.3px;
+    width:37.3px;
+    position:absolute ;
+    top:37.3px;
+    left:76.6px;
+    border-right:2px solid black;
+    border-bottom:2px solid black;
+}
+.s5-1{
+    height:37.3px;
+    width:37.3px;
+    border-right:2px solid black;
+    border-bottom:2px solid black;
+}
+.s5-2{
+    height:37.3px;
+    width:37.3px;
+    border-right:2px solid black;
+    border-bottom:2px solid black;
+}
+.s5-3{
+    height:37.3px;
+    width:37.3px;
+    border-right:2px solid black;
+    border-bottom:2px solid black;
+}
+.s5-4{
+    height:37.3px;
+    width:37.3px;
+    position:absolute ;
+    top:0px;
+    left:37.3px;
+    border-right:2px solid black;
+    border-bottom:2px solid black;
+}
+.s5-5{
+    height:37.3px;
+    width:37.3px;
+    position:absolute ;
+    top:37.3px;
+    left:37.3px;
+    border-right:2px solid black;
+    border-bottom:2px solid black;
+}
+.s5-6{
+    height:37.3px;
+    width:37.3px;
+    position:absolute ;
+    top:74.6px;
+    left:37.3px;
+    border-right:2px solid black;
+    border-bottom:2px solid black;
+}
+.s5-7{
+    height:37.3px;
+    width:37.3px;
+    position:absolute ;
+    top:0px;
+    left:74.6px;
+    border-right:2px solid black;
+    border-bottom:2px solid black;
+}
+.s5-8{
+    height:37.3px;
+    width:37.3px;
+    position:absolute ;
+    top:37.3px;
+    left:76.6px;
+    border-right:2px solid black;
+    border-bottom:2px solid black;
+}
+.s6-1{
+    height:37.3px;
+    width:37.3px;
+    border-right:2px solid black;
+    border-bottom:2px solid black;
+}
+.s6-2{
+    height:37.3px;
+    width:37.3px;
+    border-right:2px solid black;
+    border-bottom:2px solid black;
+}
+.s6-3{
+    height:37.3px;
+    width:37.3px;
+    border-right:2px solid black;
+    border-bottom:2px solid black;
+}
+.s6-4{
+    height:37.3px;
+    width:37.3px;
+    position:absolute ;
+    top:0px;
+    left:37.3px;
+    border-right:2px solid black;
+    border-bottom:2px solid black;
+}
+.s6-5{
+    height:37.3px;
+    width:37.3px;
+    position:absolute ;
+    top:37.3px;
+    left:37.3px;
+    border-right:2px solid black;
+    border-bottom:2px solid black;
+}
+.s6-6{
+    height:37.3px;
+    width:37.3px;
+    position:absolute ;
+    top:74.6px;
+    left:37.3px;
+    border-right:2px solid black;
+    border-bottom:2px solid black;
+}
+.s6-7{
+    height:37.3px;
+    width:37.3px;
+    position:absolute ;
+    top:0px;
+    left:74.6px;
+    border-right:2px solid black;
+    border-bottom:2px solid black;
+}
+.s6-8{
+    height:37.3px;
+    width:37.3px;
+    position:absolute ;
+    top:37.3px;
+    left:76.6px;
+    border-right:2px solid black;
+    border-bottom:2px solid black;
+}
